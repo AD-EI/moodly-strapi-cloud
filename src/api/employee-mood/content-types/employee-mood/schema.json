@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "employee_moods",
+  "info": {
+    "singularName": "employee-mood",
+    "pluralName": "employee-moods",
+    "displayName": "EmployeeMood"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "moodLevel": {
+      "type": "integer",
+      "required": true,
+      "max": 5,
+      "min": 1
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    }
+  }
+}
